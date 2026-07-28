@@ -115,6 +115,15 @@ The test suite includes the expected coral failure for `GO:0035070` and the corr
 
 `goaudit prepare-orgdb` validates an EGAPx/RefSeq GFF3 protein-to-gene hierarchy and writes clean `AnnotationForge` input tables plus complete mapping QC. See the [validated OrgDb workflow](docs/orgdb-workflow.md) for conversion, combined-source validation, R package construction, review of the supplied Rmd, and the route toward Bioconductor submission.
 
+## Benchmarks
+
+- [`benchmarks/stylophora_refseq/`](benchmarks/stylophora_refseq/) compares
+  GOaudit with FunTaxIS-lite, Ontobio, OAK and GAEF on the RefSeq coral
+  annotation set.
+- [`benchmarks/stylophora_deepgoplus/`](benchmarks/stylophora_deepgoplus/)
+  runs a pretrained machine-learning GO predictor on the complete
+  *Stylophora pistillata* proteome and audits its predictions.
+
 ## Reproducibility and citation
 
 Retain `reference_manifest.json` with every analysis and report the GO release, NCBI taxid, GOaudit version, and selected mode. GO ontology and constraint data are provided by the Gene Ontology Consortium; taxonomy data are provided by NCBI.

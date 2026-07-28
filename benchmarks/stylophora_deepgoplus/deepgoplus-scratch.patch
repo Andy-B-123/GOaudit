@@ -1,0 +1,8 @@
+--- a/deepgoplus/main.py
++++ b/deepgoplus/main.py
+@@
+-        "diamond", "blastp",  "-d", diamond_db, "--more-sensitive", "-t", "/tmp",
++        "diamond", "blastp", "-d", diamond_db, "--more-sensitive", "--threads",
++        os.environ.get("DEEPGOPLUS_DIAMOND_THREADS", "1"), "-t",
++        os.environ.get("TMPDIR", "/tmp"),
+         "-q", in_file, "--outfmt", "6", "qseqid", "sseqid", "bitscore", "-o",
