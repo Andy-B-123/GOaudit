@@ -1,0 +1,8 @@
+tool	version_or_revision	installation_path	important_pin_or_note
+micromamba	2.8.1	/scratch3/bac050/2026_bioinfo_tool/tools/bin/micromamba	root and caches under scratch
+GOaudit	0.1.0	/home/bac050/bioinfo-tool	existing source checkout, not a new installation; GO release 2026-06-15
+FunTaxIS-lite	472c31e57e2493923f133d7f6bb4edcad760d6a0	/scratch3/bac050/2026_bioinfo_tool/tools/src/FunTaxIS-lite	Python 3.9.23; Owlready2 0.48
+Ontobio	2.9.12	/scratch3/bac050/2026_bioinfo_tool/tools/envs/ontobio	Python 3.11.15; Rule 13 requires external Gaferencer inference JSON
+OAK/oaklib	0.7.2	/scratch3/bac050/2026_bioinfo_tool/tools/envs/oak	Python 3.12.13; pronto pinned to 2.7.3
+GAEF	4dcde53819bdd205918f154865ab232db0046fba	/scratch3/bac050/2026_bioinfo_tool/tools/src/GAEF	v1.0.0-7-g4dcde53; Python 3.11.15; Groovy 4.0.28; OpenJDK 17.0.18
+QuickGO API	live response 2026-07-13 UTC	/scratch3/bac050/2026_bioinfo_tool/results/tool_benchmark/quickgo	API only; response archived with headers
