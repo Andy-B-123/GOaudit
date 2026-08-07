@@ -2,6 +2,15 @@
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## 0.2.2 - 2026-08-07
+
+- Remove local HPC scratch paths from the README and `docs/`; `--data-dir` is
+  optional and defaults to `~/.cache/goaudit`.
+- Replace `test_data/` paths and the EGAPx identifier in worked examples with
+  neutral placeholders, so documented commands work in a fresh clone.
+- Align the declared package version with the release tag. Versions 0.2.0 and
+  0.2.1 both reported `0.2.0` from `goaudit --version`.
+
 ## 0.2.0 - 2026-08-07
 
 - Add the matched eggNOG-mapper option matrix benchmark

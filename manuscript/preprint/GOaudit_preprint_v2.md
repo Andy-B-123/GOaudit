@@ -37,7 +37,7 @@ GOaudit has been written to address this specific case. Its stated objective is 
 
 ## Implementation
 
-GOaudit is implemented in Python 3.10 or later using only the standard library. All analyses reported here were performed with version 0.1.0; the audit code is unchanged in the current 0.2.0 release, which adds benchmarks, analysis scripts and documentation. Reference data are managed separately from the package. The `update` subcommand retrieves the GO ontology, computed taxon constraints, taxon groupings and NCBI Taxonomy, recording the source URL, retrieval timestamp and SHA-256 checksum of each file so that a project can pin or archive a specific snapshot.
+GOaudit is implemented in Python 3.10 or later using only the standard library. All analyses reported here were performed with version 0.1.0; the audit code is unchanged in the current 0.2.2 release, which adds benchmarks, analysis scripts and documentation. Reference data are managed separately from the package. The `update` subcommand retrieves the GO ontology, computed taxon constraints, taxon groupings and NCBI Taxonomy, recording the source URL, retrieval timestamp and SHA-256 checksum of each file so that a project can pin or archive a specific snapshot.
 
 The `validate` subcommand accepts a tab-separated file containing exactly two columns, `protein_id` and `go_id`, with one association per row, together with an NCBI taxon identifier:
 
@@ -159,9 +159,9 @@ The author defined the requirements, selected the study design, executed all ana
 ## Availability
 
 - **Source:** https://github.com/Andy-B-123/GOaudit (MIT licence)
-- **Version described:** v0.2.0, released 7 August 2026
+- **Version described:** v0.2.2, released 7 August 2026
 - **Language:** Python 3.10 or later; no runtime dependencies
-- **Installation:** `python -m pip install "goaudit @ git+https://github.com/Andy-B-123/GOaudit.git@v0.2.0"`
+- **Installation:** `python -m pip install "goaudit @ git+https://github.com/Andy-B-123/GOaudit.git@v0.2.2"`
 - **Data:** The *S. pistillata* RefSeq proteome is available from NCBI under assembly accession GCF_002571385.2. Benchmark commands, software versions, input checksums, SLURM scripts and analysis scripts are provided under `benchmarks/` in the repository. GO and NCBI reference data are retrieved by `goaudit update`.
 - **Testing:** 16 tests pass under Python 3.11 through 3.14 on SUSE Linux Enterprise High Performance Computing 15 SP5.
 
