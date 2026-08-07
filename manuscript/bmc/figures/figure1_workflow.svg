@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="950" viewBox="0 0 1800 950" role="img" aria-labelledby="title desc">
+<title id="title">GOaudit workflow</title>
+<desc id="desc">GOaudit workflow</desc>
+<rect width="1800" height="950" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#17212B}.title{font-size:31px;font-weight:700}.panel{font-size:27px;font-weight:700}.heading{font-size:22px;font-weight:700}.body{font-size:18px}.small{font-size:15px;fill:#52606D}.axis{font-size:16px;fill:#52606D}</style>
+<text x="70.0" y="70.0" class="title" text-anchor="start">GOaudit adds a taxonomic checkpoint before interpretation</text>
+<rect x="70.0" y="190.0" width="330.0" height="400.0" rx="18.0" fill="#EAF3F8" stroke="#D9E2EC" stroke-width="2.0"/>
+<circle cx="112.0" cy="235.0" r="24.0" fill="#174A7E" stroke="none"/>
+<text x="112.0" y="242.0" class="body" text-anchor="middle" fill="#FFFFFF" font-weight="700">1</text>
+<text x="148.0" y="243.0" class="heading" text-anchor="start">Generate GO terms</text>
+<circle cx="112.0" cy="309.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="130.0" y="315.0" class="body" text-anchor="start">
+<tspan x="130.0" dy="0">Orthology transfer</tspan>
+</text>
+<circle cx="112.0" cy="370.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="130.0" y="376.0" class="body" text-anchor="start">
+<tspan x="130.0" dy="0">Protein signatures</tspan>
+</text>
+<circle cx="112.0" cy="431.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="130.0" y="437.0" class="body" text-anchor="start">
+<tspan x="130.0" dy="0">Machine-learning prediction</tspan>
+</text>
+<rect x="480.0" y="190.0" width="280.0" height="400.0" rx="18.0" fill="#F5F7FA" stroke="#D9E2EC" stroke-width="2.0"/>
+<circle cx="522.0" cy="235.0" r="24.0" fill="#174A7E" stroke="none"/>
+<text x="522.0" y="242.0" class="body" text-anchor="middle" fill="#FFFFFF" font-weight="700">2</text>
+<text x="558.0" y="243.0" class="heading" text-anchor="start">Standardize</text>
+<circle cx="522.0" cy="309.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="540.0" y="315.0" class="body" text-anchor="start">
+<tspan x="540.0" dy="0">protein_id    go_id</tspan>
+</text>
+<circle cx="522.0" cy="370.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="540.0" y="376.0" class="body" text-anchor="start">
+<tspan x="540.0" dy="0">One association per row</tspan>
+</text>
+<circle cx="522.0" cy="431.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="540.0" y="437.0" class="body" text-anchor="start">
+<tspan x="540.0" dy="0">Any annotation source</tspan>
+</text>
+<rect x="840.0" y="190.0" width="370.0" height="400.0" rx="18.0" fill="#E7F5F2" stroke="#D9E2EC" stroke-width="2.0"/>
+<circle cx="882.0" cy="235.0" r="24.0" fill="#174A7E" stroke="none"/>
+<text x="882.0" y="242.0" class="body" text-anchor="middle" fill="#FFFFFF" font-weight="700">3</text>
+<text x="918.0" y="243.0" class="heading" text-anchor="start">Audit with GOaudit</text>
+<circle cx="882.0" cy="309.0" r="5.0" fill="#138A8A" stroke="none"/>
+<text x="900.0" y="315.0" class="body" text-anchor="start">
+<tspan x="900.0" dy="0">Target NCBI taxid</tspan>
+</text>
+<circle cx="882.0" cy="370.0" r="5.0" fill="#138A8A" stroke="none"/>
+<text x="900.0" y="376.0" class="body" text-anchor="start">
+<tspan x="900.0" dy="0">Complete taxonomic lineage</tspan>
+</text>
+<circle cx="882.0" cy="431.0" r="5.0" fill="#138A8A" stroke="none"/>
+<text x="900.0" y="437.0" class="body" text-anchor="start">
+<tspan x="900.0" dy="0">Dated GO constraints</tspan>
+</text>
+<circle cx="882.0" cy="492.0" r="5.0" fill="#138A8A" stroke="none"/>
+<text x="900.0" y="498.0" class="body" text-anchor="start">
+<tspan x="900.0" dy="0">Alternative / obsolete IDs</tspan>
+</text>
+<rect x="1290.0" y="190.0" width="430.0" height="400.0" rx="18.0" fill="#FCEDE8" stroke="#D9E2EC" stroke-width="2.0"/>
+<circle cx="1332.0" cy="235.0" r="24.0" fill="#174A7E" stroke="none"/>
+<text x="1332.0" y="242.0" class="body" text-anchor="middle" fill="#FFFFFF" font-weight="700">4</text>
+<text x="1368.0" y="243.0" class="heading" text-anchor="start">Review and use</text>
+<circle cx="1332.0" cy="309.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="1350.0" y="315.0" class="body" text-anchor="start">
+<tspan x="1350.0" dy="0">Association-level decisions</tspan>
+</text>
+<circle cx="1332.0" cy="370.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="1350.0" y="376.0" class="body" text-anchor="start">
+<tspan x="1350.0" dy="0">Summary statistics + plots</tspan>
+</text>
+<circle cx="1332.0" cy="431.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="1350.0" y="437.0" class="body" text-anchor="start">
+<tspan x="1350.0" dy="0">Optional filtered table</tspan>
+</text>
+<circle cx="1332.0" cy="492.0" r="5.0" fill="#2F80B7" stroke="none"/>
+<text x="1350.0" y="498.0" class="body" text-anchor="start">
+<tspan x="1350.0" dy="0">Enrichment / OrgDb</tspan>
+</text>
+<line x1="410.0" y1="390.0" x2="463.0" y2="390.0" stroke="#174A7E" stroke-width="5.0"/>
+<polygon points="463.0,390.0 447.7,399.4 447.7,380.6" fill="#174A7E"/>
+<line x1="760.0" y1="390.0" x2="823.0" y2="390.0" stroke="#174A7E" stroke-width="5.0"/>
+<polygon points="823.0,390.0 807.7,399.4 807.7,380.6" fill="#174A7E"/>
+<line x1="1210.0" y1="390.0" x2="1273.0" y2="390.0" stroke="#174A7E" stroke-width="5.0"/>
+<polygon points="1273.0,390.0 1257.7,399.4 1257.7,380.6" fill="#174A7E"/>
+<rect x="580.0" y="690.0" width="640.0" height="130.0" rx="14.0" fill="#F8FAFC" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="610.0" y="730.0" class="heading" text-anchor="start">Reference provenance retained with every run</text>
+<text x="610.0" y="770.0" class="body" text-anchor="start">
+<tspan x="610.0" dy="0">Source URLs • retrieval time • release identifiers • SHA-256</tspan>
+<tspan x="610.0" dy="24">checksums</tspan>
+</text>
+<line x1="1025.0" y1="675.0" x2="1025.0" y2="610.0" stroke="#52606D" stroke-width="5.0"/>
+<polygon points="1025.0,610.0 1034.4,625.3 1015.6,625.3" fill="#52606D"/>
+<text x="900.0" y="890.0" class="small" text-anchor="middle">Protein evidence is preserved; only incompatible protein–GO associations are flagged.</text>
+</svg>

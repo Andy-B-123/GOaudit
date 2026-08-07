@@ -1,5 +1,10 @@
 # GOaudit manuscript draft
 
+> **Current drafting route:** This broad exploratory draft is retained for
+> background material. The focused BMC Bioinformatics Software article launch
+> draft, DeepGOPlus-centred figures, machine-readable tables and next-session
+> brief are in [`manuscript/bmc/`](bmc/README.md).
+
 > Working draft: 14 July 2026. The text below is written as a full software/application article. Square-bracketed text marks information or analyses that still need to be supplied before submission; the numerical results without brackets were calculated from the supplied *Stylophora pistillata* data. DOI links are included during drafting and can later be converted to the target journal's reference style.
 
 ## Editorial position

@@ -1,0 +1,17 @@
+metric	value
+target_taxid	50429
+target_name	Stylophora pistillata
+ontology_version	releases/2026-06-15
+proteins_annotated	23338
+annotation_rows	95381
+unique_go_terms	5375
+valid_rows	92719
+taxon_violation_rows	248
+taxon_violation_terms	72
+proteins_with_taxon_violations	212
+obsolete_rows	2414
+obsolete_terms	288
+unknown_go_rows	0
+unknown_go_terms	0
+alternate_id_rows	0
+rows_recommended_for_taxon_exclusion	248

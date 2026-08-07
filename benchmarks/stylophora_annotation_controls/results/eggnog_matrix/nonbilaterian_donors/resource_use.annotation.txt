@@ -1,0 +1,23 @@
+	Command being timed: "emapper.py -m no_search --annotate_hits_table /scratch3/bac050/2026_bioinfo_tool/results/comparator_benchmark/eggnog_matrix/search_defaults/search_defaults.emapper.seed_orthologs -o nonbilaterian_donors --output_dir /scratch3/bac050/2026_bioinfo_tool/results/comparator_benchmark/eggnog_matrix/nonbilaterian_donors --data_dir /dev/shm/bac050.29552951/scratch3/projects/datasets_bioref/eggnog/data_2025-03-31 --scratch_dir /dev/shm/bac050.29552951 --cpu 16 --tax_scope Metazoa --tax_scope_mode inner_narrowest --target_taxa 33208 --excluded_taxa 33213 --go_evidence all"
+	User time (seconds): 2281.85
+	System time (seconds): 538.81
+	Percent of CPU this job got: 279%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:50.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 158948
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 209353573
+	Voluntary context switches: 2632719
+	Involuntary context switches: 41473
+	Swaps: 0
+	File system inputs: 223656
+	File system outputs: 13344
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -2,7 +2,7 @@
 
 GOaudit is a small command-line quality-control layer for automated Gene Ontology (GO) annotations. It asks a deliberately narrow question: **is each GO term compatible with the taxonomy of the organism being annotated?**
 
-Annotation transfer can preserve a real homology while transferring biologically inappropriate metadata. The motivating example is `GO:0035070` (*salivary gland histolysis*) appearing in coral eggNOG-mapper results. GO restricts this term to Arthropoda, so GOaudit reports it as a taxon-constraint violation for *Stylophora pistillata* (NCBI taxid `50429`) without questioning the underlying protein hit.
+Automated annotation can return a plausible protein assignment or a high-scoring prediction while attaching a GO term outside the organism's lineage. In a full-proteome DeepGOPlus benchmark for the coral *Stylophora pistillata* (NCBI taxid `50429`), GOaudit identified 8,316 taxon-incompatible associations among 1,095,349 predictions. GOaudit reports the affected association without questioning the underlying protein or discarding its compatible GO terms.
 
 GOaudit uses the official GO computed taxon constraints and NCBI Taxonomy. It does not invent constraints or infer organism biology from names.
 
@@ -38,13 +38,19 @@ Input is intentionally strict: a tab-separated file with exactly two columns, on
 
 ```text
 protein_id	go_id
-egapxtmp_003494-P1	GO:0035070
+XP_022777524.1	GO:0006954
 protein_2	GO:0003677
 ```
 
 The header is optional. GO IDs must have the form `GO:0000000`. Comma-separated terms and additional columns are rejected; use one row per association.
-A runnable one-row coral example is provided at
-[`examples/stylophora_sentinel.tsv`](examples/stylophora_sentinel.tsv).
+
+A runnable example is provided at
+[`examples/stylophora_example.tsv`](examples/stylophora_example.tsv). It
+contains real eggNOG-mapper output for one *S. pistillata* RefSeq protein
+(`XP_022777675.1`, a Wnt-family protein). Auditing it against taxid `50429`
+keeps four valid terms, flags seven terms constrained to Arthropoda,
+Bilateria, Chordata, Craniata, Deuterostomia, Insecta and Mammalia, and
+reports one obsolete term separately.
 
 ## Convert eggNOG-mapper output
 
@@ -109,7 +115,7 @@ The statuses are quality-control findings, not claims that a homology or protein
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-The test suite includes the expected coral failure for `GO:0035070` and the corresponding valid arthropod case.
+The test suite includes valid and invalid taxon-constrained associations, including descendant-lineage, obsolete, alternate-ID and unknown-term cases.
 
 ## Build a non-model-organism OrgDb
 
@@ -123,6 +129,13 @@ The test suite includes the expected coral failure for `GO:0035070` and the corr
 - [`benchmarks/stylophora_deepgoplus/`](benchmarks/stylophora_deepgoplus/)
   runs a pretrained machine-learning GO predictor on the complete
   *Stylophora pistillata* proteome and audits its predictions.
+- [`benchmarks/stylophora_annotation_controls/`](benchmarks/stylophora_annotation_controls/)
+  contains matched eggNOG-mapper and InterProScan runs applying orthology- and
+  protein-signature-based annotation to the same RefSeq proteome, with exact
+  commands, versions and GOaudit summaries. It also contains the eggNOG-mapper
+  option matrix, which shows that neither annotation scope nor alignment
+  stringency changes the taxon-violation rate, and that only donor restriction
+  does — at a cost of 14,571 annotated proteins down to 164.
 
 ## Reproducibility and citation
 
@@ -139,6 +152,21 @@ Please cite the software metadata in [`CITATION.cff`](CITATION.cff). A paper
 citation can be added there once the manuscript is published.
 
 GOaudit is an early research release. Constraint findings can expose ontology or taxonomy edge cases, so high-impact exclusions should be reviewed and possible GO constraint errors reported to the GO Consortium.
+
+## Manuscript
+
+The preprint describing GOaudit and the *S. pistillata* case study is in
+[`manuscript/preprint/`](manuscript/preprint/). A longer draft written for a
+journal software article, with editable figures and machine-readable tables,
+is retained in [`manuscript/bmc/`](manuscript/bmc/README.md) as the extended
+record.
+
+GOaudit was developed with substantial generative-AI assistance: the initial
+scaffold was generated in an OpenAI Codex session, and subsequent development,
+benchmarking, analysis and manuscript drafting used Anthropic Claude. The
+author defined the requirements, ran all analyses and is responsible for the
+correctness of the results. See the preprint's "Use of generative AI" section
+for the full disclosure.
 
 ## Contributing and releasing
 

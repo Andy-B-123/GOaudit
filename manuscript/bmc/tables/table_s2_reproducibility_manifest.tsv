@@ -1,0 +1,17 @@
+item	value
+Target organism	Stylophora pistillata
+NCBI taxid	50429
+RefSeq assembly	GCF_002571385.2
+Input proteins	32879
+Protein FASTA SHA-256	bfbb681b97609d4828705da786fd3a1e223a918f584ef0dbf0f9ca117241ac82
+DeepGOPlus package	1.0.2
+DeepGOPlus model bundle	1.0.28
+DeepGOPlus model release date	2026-06-14
+Model GO release	2026-05-19
+Model Swiss-Prot release	2026_02
+Modelled GO terms	5692
+DeepGOPlus threshold	0.30
+GOaudit version	0.1.0
+GOaudit GO release	2026-06-15
+GOaudit mode	report
+DeepGOPlus model archive SHA-256	949943db085b123e5c238dd9819f2184e9d0636ade506438df3c5d5da3104e93

@@ -1,0 +1,191 @@
+go_id	depth	proteins	term_name
+GO:0046872	5	44	metal ion binding
+GO:0030554	5	29	adenyl nucleotide binding
+GO:0032559	5	29	adenyl ribonucleotide binding
+GO:0032550	5	21	purine ribonucleoside binding
+GO:0032561	5	18	guanyl ribonucleotide binding
+GO:0061501	6	18	2',3'-cyclic GMP-AMP synthase activity
+GO:0019001	5	18	guanyl nucleotide binding
+GO:0005634	5	17	nucleus
+GO:0007010	5	9	cytoskeleton organization
+GO:0080090	5	8	regulation of primary metabolic process
+GO:0051246	6	7	regulation of protein metabolic process
+GO:0060255	5	7	regulation of macromolecule metabolic process
+GO:0031981	5	6	nuclear lumen
+GO:0009889	5	6	regulation of biosynthetic process
+GO:0005856	5	6	cytoskeleton
+GO:0015630	6	6	microtubule cytoskeleton
+GO:0010467	5	6	gene expression
+GO:0010468	7	5	regulation of gene expression
+GO:0010556	6	5	regulation of macromolecule biosynthetic process
+GO:0010608	8	5	post-transcriptional regulation of gene expression
+GO:0036211	5	5	protein modification process
+GO:0006417	7	5	regulation of translation
+GO:0099513	5	5	polymeric cytoskeletal fiber
+GO:0016070	5	5	RNA metabolic process
+GO:0015194	5	4	L-serine transmembrane transporter activity
+GO:0006812	5	4	monoatomic cation transport
+GO:0015804	5	4	neutral amino acid transport
+GO:0009067	6	4	aspartate family amino acid biosynthetic process
+GO:0005764	5	4	lysosome
+GO:0070925	5	4	organelle assembly
+GO:0015807	5	4	L-amino acid transport
+GO:0006644	5	4	phospholipid metabolic process
+GO:0043102	5	4	amino acid salvage
+GO:0032329	5	4	serine transport
+GO:0006820	5	4	monoatomic anion transport
+GO:0005694	5	4	chromosome
+GO:0019752	5	4	carboxylic acid metabolic process
+GO:0008654	5	4	phospholipid biosynthetic process
+GO:0034404	5	4	nucleobase-containing small molecule biosynthetic process
+GO:0046942	5	4	carboxylic acid transport
+GO:0006555	5	4	L-methionine metabolic process
+GO:0015931	5	4	nucleobase-containing compound transport
+GO:0071267	6	4	L-methionine salvage
+GO:0071265	6	4	L-methionine biosynthetic process
+GO:2000765	8	4	regulation of cytoplasmic translation
+GO:1900247	9	4	regulation of cytoplasmic translational elongation
+GO:0046394	5	4	carboxylic acid biosynthetic process
+GO:0000097	5	4	sulfur amino acid biosynthetic process
+GO:0006448	8	4	regulation of translational elongation
+GO:0015825	6	4	L-serine transport
+GO:0061711	5	3	tRNA N(6)-L-threonylcarbamoyladenine synthase activity
+GO:0016567	9	3	protein ubiquitination
+GO:0032446	8	3	protein modification by small protein conjugation
+GO:0006399	6	3	tRNA metabolic process
+GO:0070525	7	3	tRNA threonylcarbamoyladenosine metabolic process
+GO:0050657	6	3	nucleic acid transport
+GO:0031625	5	3	ubiquitin protein ligase binding
+GO:0070647	7	3	protein modification by small protein conjugation or removal
+GO:0005765	6	3	lysosomal membrane
+GO:0048285	5	3	organelle fission
+GO:0000280	6	3	nuclear division
+GO:0097708	5	3	intracellular vesicle
+GO:0009117	6	3	nucleotide metabolic process
+GO:0061630	5	3	ubiquitin protein ligase activity
+GO:0016072	6	3	rRNA metabolic process
+GO:0098852	5	3	lytic vacuole membrane
+GO:0005874	6	3	microtubule
+GO:0017111	6	2	ribonucleoside triphosphate phosphatase activity
+GO:0008361	5	2	regulation of cell size
+GO:0032787	6	2	monocarboxylic acid metabolic process
+GO:0006281	5	2	DNA repair
+GO:0016462	5	2	pyrophosphatase activity
+GO:0005730	5	2	nucleolus
+GO:0065003	5	2	protein-containing complex assembly
+GO:0061462	6	2	protein localization to lysosome
+GO:0030162	7	2	regulation of proteolysis
+GO:0072665	5	2	protein localization to vacuole
+GO:0006508	5	2	proteolysis
+GO:1901659	5	2	glycosyl compound biosynthetic process
+GO:0004177	5	2	aminopeptidase activity
+GO:0000819	5	2	sister chromatid segregation
+GO:0006259	5	2	DNA metabolic process
+GO:0010458	5	1	exit from mitosis
+GO:0051539	5	1	4 iron, 4 sulfur cluster binding
+GO:1903322	10	1	positive regulation of protein modification by small protein conjugation or removal
+GO:0032774	6	1	RNA biosynthetic process
+GO:0070507	5	1	regulation of microtubule cytoskeleton organization
+GO:0070979	11	1	protein K11-linked ubiquitination
+GO:0009451	5	1	RNA modification
+GO:0006260	6	1	DNA replication
+GO:0031125	6	1	rRNA 3'-end processing
+GO:0031163	5	1	metallo-sulfur cluster assembly
+GO:0051438	5	1	regulation of ubiquitin-protein transferase activity
+GO:0010466	6	1	negative regulation of peptidase activity
+GO:0006364	5	1	rRNA processing
+GO:0051029	5	1	rRNA transport
+GO:1904666	6	1	regulation of ubiquitin protein ligase activity
+GO:0018205	7	1	peptidyl-lysine modification
+GO:0018117	7	1	protein adenylylation
+GO:0047496	5	1	vesicle transport along microtubule
+GO:0042402	5	1	biogenic amine catabolic process
+GO:0051258	6	1	protein polymerization
+GO:0002949	7	1	tRNA threonylcarbamoyladenosine modification
+GO:0010498	6	1	proteasomal protein catabolic process
+GO:0062012	5	1	regulation of small molecule metabolic process
+GO:0006753	5	1	nucleoside phosphate metabolic process
+GO:0010604	6	1	positive regulation of macromolecule metabolic process
+GO:0000132	5	1	establishment of mitotic spindle orientation
+GO:0000447	7	1	endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0051247	7	1	positive regulation of protein metabolic process
+GO:0042455	6	1	ribonucleoside biosynthetic process
+GO:0052855	5	1	ADP-dependent NAD(P)H-hydrate dehydratase activity
+GO:0015942	7	1	formate metabolic process
+GO:0008033	5	1	tRNA processing
+GO:0000461	7	1	endonucleolytic cleavage to generate mature 3'-end of SSU-rRNA from (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0047453	5	1	ATP-dependent NAD(P)H-hydrate dehydratase activity
+GO:0031902	5	1	late endosome membrane
+GO:0006511	7	1	ubiquitin-dependent protein catabolic process
+GO:0006351	6	1	DNA-templated transcription
+GO:0030490	6	1	maturation of SSU-rRNA
+GO:0099518	5	1	vesicle cytoskeletal trafficking
+GO:0043628	6	1	regulatory ncRNA 3'-end processing
+GO:0071826	5	1	protein-RNA complex organization
+GO:0009163	5	1	nucleoside biosynthetic process
+GO:0042274	5	1	ribosomal small subunit biogenesis
+GO:0042254	5	1	ribosome biogenesis
+GO:0051493	6	1	regulation of cytoskeleton organization
+GO:0016226	6	1	iron-sulfur cluster assembly
+GO:0040001	5	1	establishment of mitotic spindle localization
+GO:0052548	6	1	regulation of endopeptidase activity
+GO:0045862	8	1	positive regulation of proteolysis
+GO:1903320	9	1	regulation of protein modification by small protein conjugation or removal
+GO:0016607	5	1	nuclear speck
+GO:0006400	6	1	tRNA modification
+GO:0018175	6	1	protein nucleotidylation
+GO:0006536	5	1	glutamate metabolic process
+GO:0043255	6	1	regulation of carbohydrate biosynthetic process
+GO:0051248	7	1	negative regulation of protein metabolic process
+GO:0019941	6	1	modification-dependent protein catabolic process
+GO:0009893	5	1	positive regulation of metabolic process
+GO:0045861	8	1	negative regulation of proteolysis
+GO:0000466	7	1	maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0009892	5	1	negative regulation of metabolic process
+GO:0031145	8	1	anaphase-promoting complex-dependent catabolic process
+GO:0070566	5	1	adenylyltransferase activity
+GO:0031401	8	1	positive regulation of protein modification process
+GO:0045786	5	1	negative regulation of cell cycle
+GO:0043632	5	1	modification-dependent macromolecule catabolic process
+GO:0043161	7	1	proteasome-mediated ubiquitin-dependent protein catabolic process
+GO:0010605	6	1	negative regulation of macromolecule metabolic process
+GO:0004551	6	1	dinucleotide phosphatase activity
+GO:0006913	5	1	nucleocytoplasmic transport
+GO:0051443	5	1	positive regulation of ubiquitin-protein transferase activity
+GO:0030163	5	1	protein catabolic process
+GO:0042255	6	1	ribosome assembly
+GO:0000028	6	1	ribosomal small subunit assembly
+GO:0019674	5	1	NAD+ metabolic process
+GO:0010951	7	1	negative regulation of endopeptidase activity
+GO:0006412	5	1	translation
+GO:0009119	5	1	ribonucleoside metabolic process
+GO:0005457	6	1	GDP-fucose transmembrane transporter activity
+GO:0018193	6	1	peptidyl-amino acid modification
+GO:0030307	5	1	positive regulation of cell growth
+GO:0031396	10	1	regulation of protein ubiquitination
+GO:0070733	6	1	AMPylase activity
+GO:0043648	6	1	dicarboxylic acid metabolic process
+GO:0010906	6	1	regulation of glucose metabolic process
+GO:0051346	5	1	negative regulation of hydrolase activity
+GO:0051604	5	1	protein maturation
+GO:0008479	5	1	tRNA-guanosine(34) queuine transglycosylase activity
+GO:0033043	5	1	regulation of organelle organization
+GO:0000462	7	1	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:1904668	6	1	positive regulation of ubiquitin protein ligase activity
+GO:0006739	5	1	NADP+ metabolic process
+GO:0009249	6	1	protein lipoylation
+GO:0022618	5	1	protein-RNA complex assembly
+GO:0036080	5	1	purine nucleotide-sugar transmembrane transporter activity
+GO:0010629	8	1	negative regulation of gene expression
+GO:0000460	6	1	maturation of 5.8S rRNA
+GO:0000479	6	1	endonucleolytic cleavage of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0031123	5	1	RNA 3'-end processing
+GO:0035529	7	1	NADH pyrophosphatase activity
+GO:0006109	6	1	regulation of carbohydrate metabolic process
+GO:0006111	7	1	regulation of gluconeogenesis
+GO:0000209	10	1	protein polyubiquitination
+GO:0015783	5	1	GDP-fucose transmembrane transport
+GO:0052547	5	1	regulation of peptidase activity
+GO:0031398	11	1	positive regulation of protein ubiquitination
+GO:0043101	5	1	purine-containing compound salvage
+GO:0031399	7	1	regulation of protein modification process

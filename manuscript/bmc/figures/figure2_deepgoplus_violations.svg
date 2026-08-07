@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1450" viewBox="0 0 2200 1450" role="img" aria-labelledby="title desc">
+<title id="title">Frequent taxon-incompatible DeepGOPlus predictions</title>
+<desc id="desc">Frequent taxon-incompatible DeepGOPlus predictions</desc>
+<rect width="2200" height="1450" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#17212B}.title{font-size:31px;font-weight:700}.panel{font-size:27px;font-weight:700}.heading{font-size:22px;font-weight:700}.body{font-size:18px}.small{font-size:15px;fill:#52606D}.axis{font-size:16px;fill:#52606D}</style>
+<text x="70.0" y="70.0" class="title" text-anchor="start">Frequent taxon-incompatible DeepGOPlus predictions in Stylophora pistillata</text>
+<text x="70.0" y="130.0" class="panel" text-anchor="start">A</text>
+<text x="115.0" y="130.0" class="heading" text-anchor="start">Most frequent incompatible GO terms</text>
+<text x="85.0" y="208.8" class="axis" text-anchor="start">circulatory system development</text>
+<rect x="515.0" y="180.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="180.0" width="740.0" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="208.8" class="axis" text-anchor="start">286</text>
+<text x="85.0" y="271.8" class="axis" text-anchor="start">inflammatory response</text>
+<rect x="515.0" y="243.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="243.0" width="553.7" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="271.8" class="axis" text-anchor="start">214</text>
+<text x="85.0" y="334.8" class="axis" text-anchor="start">central nervous system development</text>
+<rect x="515.0" y="306.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="306.0" width="520.1" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="334.8" class="axis" text-anchor="start">201</text>
+<text x="85.0" y="397.8" class="axis" text-anchor="start">head development</text>
+<rect x="515.0" y="369.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="369.0" width="364.8" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="397.8" class="axis" text-anchor="start">141</text>
+<text x="85.0" y="460.8" class="axis" text-anchor="start">vasculature development</text>
+<rect x="515.0" y="432.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="432.0" width="351.9" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="460.8" class="axis" text-anchor="start">136</text>
+<text x="85.0" y="523.8" class="axis" text-anchor="start">brain development</text>
+<rect x="515.0" y="495.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="495.0" width="318.3" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="523.8" class="axis" text-anchor="start">123</text>
+<text x="85.0" y="586.8" class="axis" text-anchor="start">blood vessel development</text>
+<rect x="515.0" y="558.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="558.0" width="313.1" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="586.8" class="axis" text-anchor="start">121</text>
+<text x="85.0" y="649.8" class="axis" text-anchor="start">heart development</text>
+<rect x="515.0" y="621.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="621.0" width="289.8" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="649.8" class="axis" text-anchor="start">112</text>
+<text x="85.0" y="712.8" class="axis" text-anchor="start">chordate embryonic development</text>
+<rect x="515.0" y="684.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="684.0" width="276.9" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="712.8" class="axis" text-anchor="start">107</text>
+<text x="85.0" y="775.8" class="axis" text-anchor="start">blood vessel morphogenesis</text>
+<rect x="515.0" y="747.0" width="740.0" height="40.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="515.0" y="747.0" width="266.5" height="40.0" rx="4.0" fill="#E76F51" stroke="none" stroke-width="0.0"/>
+<text x="1267.0" y="775.8" class="axis" text-anchor="start">103</text>
+<line x1="1390.0" y1="130.0" x2="1390.0" y2="1270.0" stroke="#D9E2EC" stroke-width="3.0"/>
+<text x="1450.0" y="130.0" class="panel" text-anchor="start">B</text>
+<text x="1495.0" y="130.0" class="heading" text-anchor="start">Most frequent constraint taxa</text>
+<text x="1460.0" y="244.6" class="axis" text-anchor="start">Vertebrata</text>
+<rect x="1645.0" y="210.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="210.0" width="395.0" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="244.6" class="axis" text-anchor="start">4,554</text>
+<text x="1460.0" y="334.6" class="axis" text-anchor="start">Bilateria</text>
+<rect x="1645.0" y="300.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="300.0" width="120.0" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="334.6" class="axis" text-anchor="start">1,383</text>
+<text x="1460.0" y="424.6" class="axis" text-anchor="start">Chordata</text>
+<rect x="1645.0" y="390.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="390.0" width="34.2" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="424.6" class="axis" text-anchor="start">394</text>
+<text x="1460.0" y="514.6" class="axis" text-anchor="start">Gnathostomata</text>
+<rect x="1645.0" y="480.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="480.0" width="28.2" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="514.6" class="axis" text-anchor="start">325</text>
+<text x="1460.0" y="604.6" class="axis" text-anchor="start">Viridiplantae</text>
+<rect x="1645.0" y="570.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="570.0" width="23.5" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="604.6" class="axis" text-anchor="start">271</text>
+<text x="1460.0" y="694.6" class="axis" text-anchor="start">Craniata</text>
+<rect x="1645.0" y="660.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="660.0" width="17.1" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="694.6" class="axis" text-anchor="start">197</text>
+<text x="1460.0" y="784.6" class="axis" text-anchor="start">Arthropoda</text>
+<rect x="1645.0" y="750.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="750.0" width="14.8" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="784.6" class="axis" text-anchor="start">171</text>
+<text x="1460.0" y="874.6" class="axis" text-anchor="start">Insecta</text>
+<rect x="1645.0" y="840.0" width="395.0" height="48.0" rx="4.0" fill="#EDF2F7" stroke="none" stroke-width="0.0"/>
+<rect x="1645.0" y="840.0" width="14.6" height="48.0" rx="4.0" fill="#138A8A" stroke="none" stroke-width="0.0"/>
+<text x="2052.0" y="874.6" class="axis" text-anchor="start">168</text>
+<rect x="1450.0" y="990.0" width="650.0" height="200.0" rx="12.0" fill="#F8FAFC" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="1480.0" y="1032.0" class="heading" text-anchor="start">Interpretation</text>
+<text x="1480.0" y="1072.0" class="body" text-anchor="start">
+<tspan x="1480.0" dy="0">Counts are protein–GO associations after DeepGOPlus</tspan>
+<tspan x="1480.0" dy="28">propagation to GO ancestors. They are not independent</tspan>
+<tspan x="1480.0" dy="28">experimental function calls.</tspan>
+</text>
+<text x="70.0" y="1375.0" class="small" text-anchor="start">Predictions retained at combined DeepGOPlus score ≥0.30; GOaudit GO release 15 June 2026.</text>
+</svg>

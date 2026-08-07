@@ -1,0 +1,5 @@
+workflow	configuration	proteins_with_go	associations	unique_go_terms	taxon_violations	taxon_violation_pct	obsolete_associations
+DeepGOPlus 1.0.2	Hybrid CNN and DIAMOND transfer; score >=0.30	31035	1095349	10799	8316	0.759	27
+InterProScan 5.72-103.0	22 signature libraries; InterProScan GO cross-references	23338	95381	5375	248	0.260	2414
+eggNOG-mapper 2.1.12 defaults	Orthology transfer; unrestricted donors; non-electronic evidence	14571	2160345	20541	110903	5.134	328694
+eggNOG-mapper 2.1.12 restricted	Orthology transfer; Metazoa donors excluding Bilateria; all GO evidence	164	8155	1062	0	0.000	1990

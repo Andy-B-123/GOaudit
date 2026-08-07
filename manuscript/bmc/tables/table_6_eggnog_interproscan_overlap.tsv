@@ -1,0 +1,17 @@
+metric	value
+eggnog_valid_associations	6048
+eggnog_proteins	164
+eggnog_unique_terms	892
+interproscan_valid_associations	92719
+interproscan_proteins	23118
+interproscan_unique_terms	5015
+eggnog_proteins_also_in_interproscan	135
+eggnog_only_proteins	29
+exact_pair_overlap	385
+closure_covered_associations	3347
+eggnog_only_associations	2701
+eggnog_only_specific_depth5	583
+eggnog_only_specific_proteins	104
+eggnog_only_specific_terms	190
+shared_proteins_gaining_specific_term	77
+shared_proteins_gaining_nothing_specific	58

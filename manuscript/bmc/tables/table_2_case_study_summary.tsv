@@ -1,0 +1,15 @@
+measure	value
+Input proteins	32879
+Proteins with prediction >=0.30	31035
+Protein-GO associations	1095349
+Unique GO terms	10799
+Current taxonomically compatible associations	1087006
+Taxon-incompatible associations	8316
+Taxon-incompatible association percentage	0.759
+Unique taxon-incompatible GO terms	1202
+Proteins with taxon-incompatible association	1285
+Affected annotated-protein percentage	4.140
+Obsolete associations	27
+Obsolete GO terms	6
+Unknown GO identifiers	0
+Associations retained after taxon filtering	1087033

@@ -1,0 +1,23 @@
+	Command being timed: "emapper.py -m no_search --annotate_hits_table /scratch3/bac050/2026_bioinfo_tool/results/comparator_benchmark/eggnog_matrix/search_stringent/search_stringent.emapper.seed_orthologs -o stringent_search_default_annot --output_dir /scratch3/bac050/2026_bioinfo_tool/results/comparator_benchmark/eggnog_matrix/stringent_search_default_annot --data_dir /dev/shm/bac050.29552951/scratch3/projects/datasets_bioref/eggnog/data_2025-03-31 --scratch_dir /dev/shm/bac050.29552951 --cpu 16"
+	User time (seconds): 67.65
+	System time (seconds): 121.66
+	Percent of CPU this job got: 1362%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 41728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 405409
+	Voluntary context switches: 111597
+	Involuntary context switches: 57243
+	Swaps: 0
+	File system inputs: 4752
+	File system outputs: 40360
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

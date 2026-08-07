@@ -1,0 +1,4 @@
+workflow	version	configuration	proteins_with_go	annotation_rows	unique_go_terms	valid_rows	taxon_violation_rows	taxon_violation_rate_percent	obsolete_rows	alternate_id_rows	unknown_go_rows
+DeepGOPlus	1.0.2	combined_score>=0.30	31035	1095349	10799	1087006	8316	0.759	27	0	0
+eggNOG-mapper	2.1.12	Metazoa donors excluding Bilateria; all GO evidence	162	8074	1062	6100	0	0.000	1974	128	0
+InterProScan	5.72-103.0	22 signature libraries; InterProScan GO cross-references	23338	95381	5375	92719	248	0.260	2414	0	0

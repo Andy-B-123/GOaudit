@@ -1,0 +1,9 @@
+cell	search	annotation_policy	proteins_annotated	proteome_coverage_pct	annotation_rows	unique_go_terms	valid_rows	taxon_violation_rows	taxon_violation_pct	taxon_violation_terms	proteins_with_taxon_violations	obsolete_rows	obsolete_pct	obsolete_terms
+default_search_default_annot	defaults	emapper defaults (tax_scope auto, non-electronic)	14571	44.317	2160345	20541	1720748	110903	5.134	2968	6169	328694	15.215	2173
+default_search_all_evidence	defaults	defaults + --go_evidence all	15893	48.338	2353479	21022	1872452	113013	4.802	3004	6333	368014	15.637	2285
+metazoa_scope	defaults	--tax_scope Metazoa, donors unrestricted, all evidence	14606	44.423	2235546	20522	1778379	109490	4.898	2844	5952	347677	15.552	2219
+nonbilaterian_donors	defaults	donors Metazoa minus Bilateria, all evidence	164	0.499	8155	1062	6165	0	0.000	0	0	1990	24.402	170
+cnidaria_donors_all	defaults	donors Cnidaria, all evidence	156	0.474	7705	1008	5839	0	0.000	0	0	1866	24.218	166
+cnidaria_donors_nonelectronic	defaults	donors Cnidaria, non-electronic	112	0.341	3633	764	2707	0	0.000	0	0	926	25.489	135
+stringent_search_default_annot	stringent	emapper default annotation policy	9595	29.183	1432157	19344	1139233	66570	4.648	2681	3969	226354	15.805	2033
+stringent_search_nonbilaterian	stringent	donors Metazoa minus Bilateria, all evidence	137	0.417	6852	1029	5045	0	0.000	0	0	1807	26.372	169

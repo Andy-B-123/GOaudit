@@ -1,0 +1,1 @@
+emapper-2.1.12-5baa1a7 / Expected eggNOG DB version: 5.0.2 / Installed eggNOG DB version: 5.0.2 / Diamond version found: diamond version 2.0.15 / MMseqs2 version found: 113e3212c137d026e297c7540e1fcd039f6812b1 / Compatible novel families DB version: 1.0.1

@@ -1,0 +1,20 @@
+dimension	category	association_rows
+native_go_mapping_source	PANTHER only	212
+native_go_mapping_source	InterPro only	35
+native_go_mapping_source	PANTHER and InterPro	1
+constraint_group	Vertebrata	118
+constraint_group	Bilateria	48
+constraint_group	Bacteria	37
+constraint_group	Craniata	10
+constraint_group	NCBITaxon_Union:0000020	9
+constraint_group	NCBITaxon_Union:0000004	7
+constraint_group	Chordata	4
+constraint_group	Mammalia	3
+constraint_group	Gnathostomata	2
+constraint_group	Deuterostomia	2
+constraint_group	Archaea	2
+constraint_group	Metazoa (never_in_taxon)	2
+constraint_group	NCBITaxon_Union:0000023	1
+constraint_group	Arthropoda	1
+constraint_group	Insecta	1
+constraint_group	Fungi	1

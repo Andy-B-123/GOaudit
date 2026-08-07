@@ -28,7 +28,7 @@ git status --short
 PYTHONPATH=src python -m unittest discover -s tests -v
 
 python -m venv /tmp/goaudit-release
-/tmp/goaudit-release/bin/python -m pip install --no-build-isolation .
+/tmp/goaudit-release/bin/python -m pip install .
 /tmp/goaudit-release/bin/goaudit --version
 
 python -m build

@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-07-13T10:32:17.709968+00:00",
+  "sources": {
+    "go.obo": "https://current.geneontology.org/ontology/go.obo",
+    "go-computed-taxon-constraints.obo": "https://current.geneontology.org/ontology/imports/go-computed-taxon-constraints.obo",
+    "go-taxon-groupings.obo": "https://current.geneontology.org/ontology/imports/go-taxon-groupings.obo",
+    "taxdump.tar.gz": "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz"
+  },
+  "sha256": {
+    "go.obo": "f6a7004c2ee92896691359aa211c418aa1f9430a5906d7913af67afeda05e34c",
+    "go-computed-taxon-constraints.obo": "c7c3422b00ae02fde76a0222af49dc24c386a58c87db9fcd708dfbb2d7766adc",
+    "go-taxon-groupings.obo": "648cb63eccfb0ffc89073f0c5659adbba1640f37cc39ea9a6255a36e5be4611f",
+    "nodes.dmp": "fdf5c73f29c559b596f01183cdb8e0e5276e56d898513f8ba14add8c8fc38c6a",
+    "names.dmp": "aabb2193cbaf685035e55308a7bf8492354350ba76898714c76c25859a472604",
+    "merged.dmp": "d1c6122aff318e15a9a29f06df0e4c574e6239c5fe73b3758f57359cb7fb7872"
+  }
+}

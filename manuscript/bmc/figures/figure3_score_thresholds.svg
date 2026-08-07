@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+<title id="title">DeepGOPlus score threshold sensitivity</title>
+<desc id="desc">DeepGOPlus score threshold sensitivity</desc>
+<rect width="1800" height="1100" fill="#FFFFFF"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#17212B}.title{font-size:31px;font-weight:700}.panel{font-size:27px;font-weight:700}.heading{font-size:22px;font-weight:700}.body{font-size:18px}.small{font-size:15px;fill:#52606D}.axis{font-size:16px;fill:#52606D}</style>
+<text x="70.0" y="70.0" class="title" text-anchor="start">Score thresholding does not substitute for a taxon audit</text>
+<text x="80.0" y="130.0" class="heading" text-anchor="start">Taxon-incompatible associations</text>
+<text x="1710.0" y="130.0" class="heading" text-anchor="end">Violation rate (%)</text>
+<line x1="180.0" y1="840.0" x2="1600.0" y2="840.0" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="160.0" y="846.0" class="axis" text-anchor="end">0</text>
+<line x1="180.0" y1="731.7" x2="1600.0" y2="731.7" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="160.0" y="737.7" class="axis" text-anchor="end">1,500</text>
+<line x1="180.0" y1="623.3" x2="1600.0" y2="623.3" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="160.0" y="629.3" class="axis" text-anchor="end">3,000</text>
+<line x1="180.0" y1="515.0" x2="1600.0" y2="515.0" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="160.0" y="521.0" class="axis" text-anchor="end">4,500</text>
+<line x1="180.0" y1="406.7" x2="1600.0" y2="406.7" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="160.0" y="412.7" class="axis" text-anchor="end">6,000</text>
+<line x1="180.0" y1="298.3" x2="1600.0" y2="298.3" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="160.0" y="304.3" class="axis" text-anchor="end">7,500</text>
+<line x1="180.0" y1="190.0" x2="1600.0" y2="190.0" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="160.0" y="196.0" class="axis" text-anchor="end">9,000</text>
+<text x="1620.0" y="846.0" class="axis" text-anchor="start">0.00</text>
+<text x="1620.0" y="737.7" class="axis" text-anchor="start">0.15</text>
+<text x="1620.0" y="629.3" class="axis" text-anchor="start">0.30</text>
+<text x="1620.0" y="521.0" class="axis" text-anchor="start">0.45</text>
+<text x="1620.0" y="412.7" class="axis" text-anchor="start">0.60</text>
+<text x="1620.0" y="304.3" class="axis" text-anchor="start">0.75</text>
+<text x="1620.0" y="196.0" class="axis" text-anchor="start">0.90</text>
+<rect x="241.5" y="239.4" width="113.6" height="600.6" rx="5.0" fill="#2F80B7" stroke="none" stroke-width="0.0"/>
+<text x="298.3" y="886.0" class="axis" text-anchor="middle">≥0.30</text>
+<text x="298.3" y="225.4" class="axis" text-anchor="middle">8,316</text>
+<rect x="478.2" y="607.1" width="113.6" height="232.9" rx="5.0" fill="#2F80B7" stroke="none" stroke-width="0.0"/>
+<text x="535.0" y="886.0" class="axis" text-anchor="middle">≥0.40</text>
+<text x="535.0" y="593.1" class="axis" text-anchor="middle">3,225</text>
+<rect x="714.9" y="650.8" width="113.6" height="189.2" rx="5.0" fill="#2F80B7" stroke="none" stroke-width="0.0"/>
+<text x="771.7" y="886.0" class="axis" text-anchor="middle">≥0.50</text>
+<text x="771.7" y="636.8" class="axis" text-anchor="middle">2,620</text>
+<rect x="951.5" y="669.5" width="113.6" height="170.5" rx="5.0" fill="#2F80B7" stroke="none" stroke-width="0.0"/>
+<text x="1008.3" y="886.0" class="axis" text-anchor="middle">≥0.60</text>
+<text x="1008.3" y="655.5" class="axis" text-anchor="middle">2,361</text>
+<rect x="1188.2" y="673.5" width="113.6" height="166.5" rx="5.0" fill="#2F80B7" stroke="none" stroke-width="0.0"/>
+<text x="1245.0" y="886.0" class="axis" text-anchor="middle">≥0.65</text>
+<text x="1245.0" y="659.5" class="axis" text-anchor="middle">2,306</text>
+<rect x="1424.9" y="840.0" width="113.6" height="0.0" rx="5.0" fill="#2F80B7" stroke="none" stroke-width="0.0"/>
+<text x="1481.7" y="886.0" class="axis" text-anchor="middle">≥0.70</text>
+<text x="1481.7" y="826.0" class="axis" text-anchor="middle">0</text>
+<polyline points="298.3,291.7 535.0,513.3 771.7,459.5 1008.3,326.3 1245.0,225.3 1481.7,840.0" fill="none" stroke="#E76F51" stroke-width="5.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="298.3" cy="291.7" r="9.0" fill="#E76F51" stroke="#FFFFFF"/>
+<text x="298.3" y="273.7" class="axis" text-anchor="middle">0.759%</text>
+<circle cx="535.0" cy="513.3" r="9.0" fill="#E76F51" stroke="#FFFFFF"/>
+<text x="535.0" y="495.3" class="axis" text-anchor="middle">0.452%</text>
+<circle cx="771.7" cy="459.5" r="9.0" fill="#E76F51" stroke="#FFFFFF"/>
+<text x="771.7" y="441.5" class="axis" text-anchor="middle">0.527%</text>
+<circle cx="1008.3" cy="326.3" r="9.0" fill="#E76F51" stroke="#FFFFFF"/>
+<text x="1008.3" y="308.3" class="axis" text-anchor="middle">0.711%</text>
+<circle cx="1245.0" cy="225.3" r="9.0" fill="#E76F51" stroke="#FFFFFF"/>
+<text x="1245.0" y="207.3" class="axis" text-anchor="middle">0.851%</text>
+<circle cx="1481.7" cy="840.0" r="9.0" fill="#E76F51" stroke="#FFFFFF"/>
+<text x="1481.7" y="822.0" class="axis" text-anchor="middle">0.000%</text>
+<text x="890.0" y="930.0" class="heading" text-anchor="middle">Minimum DeepGOPlus combined score</text>
+<rect x="970.0" y="235.0" width="555.0" height="105.0" rx="12.0" fill="#FCEDE8" stroke="#E76F51" stroke-width="2.0"/>
+<text x="995.0" y="275.0" class="heading" text-anchor="start">2,306 incompatible associations</text>
+<text x="995.0" y="310.0" class="body" text-anchor="start">remain at score ≥0.65</text>
+<line x1="1240.0" y1="355.0" x2="1245.0" y2="820.0" stroke="#E76F51" stroke-width="5.0"/>
+<polygon points="1245.0,820.0 1235.4,804.8 1254.2,804.6" fill="#E76F51"/>
+<rect x="80.0" y="980.0" width="1640.0" height="70.0" rx="10.0" fill="#F8FAFC" stroke="#D9E2EC" stroke-width="2.0"/>
+<text x="900.0" y="1023.0" class="small" text-anchor="middle">Bars: incompatible association count    •    Line: incompatible percentage among all associations retained</text>
+</svg>

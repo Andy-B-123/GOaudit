@@ -1,0 +1,11 @@
+go_id	description	associations	maximum_score	constraint_type	constraint_taxon
+GO:0072359	circulatory system development	286	0.687	in_taxon	Bilateria
+GO:0006954	inflammatory response	214	0.666	in_taxon	Vertebrata
+GO:0007417	central nervous system development	201	0.669	in_taxon	Bilateria
+GO:0060322	head development	141	0.664	in_taxon	Bilateria
+GO:0001944	vasculature development	136	0.668	in_taxon	Vertebrata
+GO:0007420	brain development	123	0.660	in_taxon	Bilateria
+GO:0001568	blood vessel development	121	0.667	in_taxon	Vertebrata
+GO:0007507	heart development	112	0.674	in_taxon	Bilateria
+GO:0043009	chordate embryonic development	107	0.665	in_taxon	Chordata
+GO:0048514	blood vessel morphogenesis	103	0.666	in_taxon	Vertebrata

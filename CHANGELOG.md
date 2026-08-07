@@ -2,6 +2,20 @@
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## Unreleased
+
+- Add the matched eggNOG-mapper option matrix benchmark
+  (`benchmarks/stylophora_annotation_controls/`), separating alignment
+  stringency, annotation scope and donor restriction on one RefSeq proteome.
+- Add `summarise_eggnog_matrix.py` and `compare_eggnog_interproscan.py` for
+  collating the matrix and quantifying information overlap between annotation
+  workflows under GO ancestor closure.
+- Track benchmark provenance (checksums, tool versions, resource use, GOaudit
+  summaries) that a `results/` ignore rule had previously excluded.
+- Replace the EGAPx-derived example with `examples/stylophora_example.tsv`,
+  built from public RefSeq identifiers.
+- Add the preprint under `manuscript/preprint/`.
+
 ## 0.1.0 - 2026-07-28
 
 Initial research-software release.

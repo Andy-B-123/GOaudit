@@ -10,6 +10,11 @@ __pycache__/
 build/
 dist/
 results/
+# Benchmark provenance (checksums, tool versions, resource use, GOaudit
+# summaries) is deliberately tracked so published results are reproducible.
+# Native annotation outputs stay out; see benchmarks/*/README.md.
+!benchmarks/**/results/
+!benchmarks/**/results/**
 goaudit_cache/
 reference_data/
 test_data/
