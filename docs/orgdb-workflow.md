@@ -12,18 +12,18 @@ annotation protein_id
 
 GOaudit deliberately supports this explicit EGAPx/RefSeq-style GFF3 schema rather than guessing arbitrary identifiers. Every `gene` needs `ID` and `locus_tag`, every protein-coding `mRNA`/`transcript` needs `ID` and `Parent`, and every `CDS` needs `protein_id` and `Parent`. Repeated CDS rows for a multi-exon protein are expected. A protein must resolve to exactly one transcript and one gene.
 
-The only automatic identifier normalization is documented and collision-checked: `gnl|WGS:ZZZZ|egapxtmp_003494-P1` may match `egapxtmp_003494-P1` by taking the text after the final pipe. GOaudit refuses the GFF if that normalization is ambiguous.
+The only automatic identifier normalization is documented and collision-checked: `gnl|WGS:ZZZZ|example_003494-P1` may match `example_003494-P1` by taking the text after the final pipe. GOaudit refuses the GFF if that normalization is ambiguous.
 
 ## 1. Convert annotation sources
 
 ```bash
 goaudit convert-interpro \
-  test_data/complete.genomic.faa.pstillata.v052.interproscan.results.tsv \
-  /scratch3/bac050/2026_bioinfo_tool/stylophora.interpro.go.tsv
+  interproscan.results.tsv \
+  annotations.interpro.tsv
 
 goaudit convert-eggnog \
-  test_data/eggnog_results/complete.proteins.emapper.annotations \
-  /scratch3/bac050/2026_bioinfo_tool/stylophora.eggnog.go.tsv
+  proteins.emapper.annotations \
+  annotations.eggnog.tsv
 ```
 
 ## 2. Validate the selected sources
@@ -32,11 +32,10 @@ Pass one or more two-column files. Keeping InterProScan separate from the combin
 
 ```bash
 goaudit validate \
-  /scratch3/bac050/2026_bioinfo_tool/stylophora.interpro.go.tsv \
-  /scratch3/bac050/2026_bioinfo_tool/stylophora.eggnog.go.tsv \
+  annotations.interpro.tsv \
+  annotations.eggnog.tsv \
   --taxid 50429 \
-  --data-dir /scratch3/bac050/2026_bioinfo_tool/goaudit_cache \
-  --output-dir /scratch3/bac050/2026_bioinfo_tool/stylophora_combined_goaudit \
+  --output-dir results/combined_goaudit \
   --mode report
 ```
 
@@ -46,9 +45,9 @@ Use `audit.tsv`, not `annotations_filtered.tsv`. The audit allows GOaudit to inc
 
 ```bash
 goaudit prepare-orgdb \
-  /scratch3/bac050/2026_bioinfo_tool/stylophora_combined_goaudit/audit.tsv \
-  --gff test_data/complete.genomic.gff \
-  --output-dir /scratch3/bac050/2026_bioinfo_tool/stylophora_orgdb_inputs
+  results/combined_goaudit/audit.tsv \
+  --gff genomic.gff \
+  --output-dir results/orgdb_inputs
 ```
 
 The default requires 100% of retained annotation proteins to map. A lower threshold can be selected explicitly with `--min-mapping-coverage`, but the unmapped identifiers must be reviewed.
@@ -68,7 +67,7 @@ Install `AnnotationForge` using the Bioconductor release appropriate for the ins
 
 ```bash
 Rscript scripts/build_orgdb.R \
-  /scratch3/bac050/2026_bioinfo_tool/stylophora_orgdb_inputs \
+  results/orgdb_inputs \
   . \
   50429 \
   Stylophora \

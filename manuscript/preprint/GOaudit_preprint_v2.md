@@ -1,11 +1,11 @@
 # GOaudit: simple taxonomic validation of Gene Ontology (GO) annotations for non-model organisms
 
-**Andy Bachler**<sup>1,\*</sup>
+**Andreas Bachler**<sup>1,\*</sup>
 
-<sup>1</sup>[Department, institution, city, state, country]
+<sup>1</sup>[Environment, CSIRO, Black Mountain, ACT, Australia]
 <sup>\*</sup>Correspondence: Andy.Bachler@csiro.au
 
-**Preprint, 7 August 2026.** Bracketed text marks decisions still to be finalised.
+**Preprint, 7 August 2026.** 
 
 ---
 

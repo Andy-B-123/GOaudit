@@ -24,10 +24,18 @@ source .venv/bin/activate
 python -m pip install -e .
 ```
 
-Download the current reference data once. For the supplied project, the requested large-data location is:
+Download the current reference data once:
 
 ```bash
-goaudit update --data-dir /scratch3/bac050/2026_bioinfo_tool/goaudit_cache
+goaudit update
+```
+
+This writes to `~/.cache/goaudit` by default (or `$XDG_CACHE_HOME/goaudit`). The
+download is roughly 500 MB. On a shared or HPC system you will usually want it
+on a larger filesystem instead, which every command accepts via `--data-dir`:
+
+```bash
+goaudit update --data-dir /path/to/goaudit_cache
 ```
 
 The update contains `go.obo`, GO's computed constraints and taxon groupings, NCBI `nodes.dmp`, `names.dmp`, and `merged.dmp`. A manifest records source URLs, retrieval time, and SHA-256 checksums.
@@ -58,11 +66,11 @@ The converter finds the `#query` and `GOs` columns, expands comma-separated GO l
 
 ```bash
 goaudit convert-eggnog \
-  test_data/eggnog_results/complete.proteins.emapper.annotations \
-  /scratch3/bac050/2026_bioinfo_tool/stylophora.eggnog.go.tsv
+  proteins.emapper.annotations \
+  annotations.eggnog.tsv
 ```
 
-By default, pipe-prefixed identifiers such as `gnl|WGS:ZZZZ|egapxtmp_003494-P1` become `egapxtmp_003494-P1`. Use `--id-mode full` to preserve the complete eggNOG query identifier.
+By default, pipe-prefixed identifiers such as `gnl|WGS:ZZZZ|example_003494-P1` become `example_003494-P1`. Use `--id-mode full` to preserve the complete eggNOG query identifier.
 
 InterProScan TSV output can be converted in the same way:
 
@@ -77,7 +85,6 @@ The safe default reports problems but does not create a filtered annotation set:
 ```bash
 goaudit validate annotations.tsv \
   --taxid 50429 \
-  --data-dir /scratch3/bac050/2026_bioinfo_tool/goaudit_cache \
   --output-dir results \
   --mode report
 ```

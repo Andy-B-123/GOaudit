@@ -16,12 +16,13 @@ groupings, plus the required NCBI Taxonomy dump files. GOaudit writes
 `manifest.json` with source URLs, retrieval time and SHA-256 checksums. Keep a
 copy of that manifest with every analysis.
 
-The default cache is user-local. On the project HPC system, keep all downloaded
-data off the home filesystem:
+The default cache is user-local (`~/.cache/goaudit`). On a shared or HPC system,
+keep the downloaded data off the home filesystem by pointing `--data-dir` at a
+larger volume:
 
 ```bash
 goaudit update \
-  --data-dir /scratch3/bac050/2026_bioinfo_tool/goaudit_cache
+  --data-dir /path/to/goaudit_cache
 ```
 
 ## Stylophora benchmark inputs
@@ -43,6 +44,6 @@ deposit it in Zenodo or an institutional repository and record its DOI here.
 
 ## Tiny test data
 
-Small synthetic inputs belong in `tests/`; the one-row motivating example is
+Small synthetic inputs belong in `tests/`; the runnable motivating example is
 in `examples/`. The ignored local `test_data/` directory may be used for
 unpublished or genome-scale working data, but it must not be committed.
