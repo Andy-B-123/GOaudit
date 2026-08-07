@@ -2,7 +2,7 @@
 
 This project follows [Semantic Versioning](https://semver.org/).
 
-## Unreleased
+## 0.2.0 - 2026-08-07
 
 - Add the matched eggNOG-mapper option matrix benchmark
   (`benchmarks/stylophora_annotation_controls/`), separating alignment
