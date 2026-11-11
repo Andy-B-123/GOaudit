@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use GOaudit, please cite this software. Add the associated paper citation when available."
 title: "GOaudit: taxonomic quality control for Gene Ontology annotations"
+doi: "10.5281/zenodo.24131715"
 type: software
 authors:
   - family-names: "Bachler"
