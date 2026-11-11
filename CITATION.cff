@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Bachler"
     given-names: "Andreas"
-    orcid: "https://orcid.org/YOUR-ORCID-ID"
+    orcid: "https://orcid.org/0009-0000-0765-3109"
 version: 0.2.2
 date-released: 2026-08-07
 license: MIT
