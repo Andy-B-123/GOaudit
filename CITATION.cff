@@ -4,7 +4,7 @@ title: "GOaudit: taxonomic quality control for Gene Ontology annotations"
 type: software
 authors:
   - family-names: "Bachler"
-    given-names: "Andy"
+    given-names: "Andreas"
 version: 0.2.2
 date-released: 2026-08-07
 license: MIT
