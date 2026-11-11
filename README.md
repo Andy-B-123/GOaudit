@@ -155,8 +155,9 @@ output, or downloaded GO/NCBI reference files. See
 workflow. This keeps installation small and prevents a benchmark dataset from
 being mistaken for package data.
 
-Please cite the software metadata in [`CITATION.cff`](CITATION.cff). A paper
-citation can be added there once the manuscript is published.
+Please cite the software metadata in [`CITATION.cff`](CITATION.cff). 
+
+Bachler, A. (2026). GOaudit: taxonomic quality control for Gene Ontology annotations (Version v0.2.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24131715
 
 GOaudit is an early research release. Constraint findings can expose ontology or taxonomy edge cases, so high-impact exclusions should be reviewed and possible GO constraint errors reported to the GO Consortium.
 
